@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Execution Selenium report</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../../../public/stylesheets/knacss.css" media="all" />
+    <link rel="icon" type="image/png" href="../../../public/images/logo_squash_favicone.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../public/images/logo_squash_favicone.ico" />
+    <script type="text/javascript" src="../../../public/javascripts/dropdown.js" ></script>
+</head>
+
+<body class="ml2 mr2 mt1">
+
+    <div id="header" class="row">
+        <div class="col w20">
+            <img class="left" src="../../../public/images/logo_squash.png" alt="Logo Squash" />
+        </div>
+        <div class="col-mid txtcenter">
+            <h1>Selenium report</h1>
+        </div>
+    </div>
+    
+    <div id="content">
+        <div id="summary"> 
+                
+            <div class="info">
+                <span>Execution date:&nbsp;</span>19/12/18 19:52:00
+                <br/>
+            </div>
+        
+            <table class="w100 striped">
+                <thead>
+                    <tr class="table-header">
+                        <th>Test</th>
+                        <th class="w10">Method (s)</th>
+                        <th class="w10">Time (ms)</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <td>
+                            fr.jpetstore.TestSelenium_OK
+                    </td>
+                    <td>
+                                <a href="#method0">TestSeleniumJUnit</a>
+                    </td>
+                    <td>
+                        15 366
+                    </td>                        
+                </tbody>                    
+            </table>
+            
+            <div class="ecosystem"> 
+          
+                <div class="ecosystem-header">
+                    <h2>
+                            fr.jpetstore.TestSelenium_OK
+                    </h2>
+                </div>
+            
+                <div class="ecosystem-body">   
+            
+                
+                 
+
+
+                            <div class="script">  
+                                <div class="script-header">
+                                    <h3 id="method0">TestSeleniumJUnit</h3> 
+                                </div>
+                                 
+    <div class="script-content">
+        org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.58%3A8090/jpetstore-1.0.5-env2/&c=UTF-8&f=regular&d=Firefox%20ne%20peut%20%C3%A9tablir%20de%20connexion%20avec%20le%20serveur%20%C3%A0%20l%E2%80%99adresse%20192.168.1.58%3A8090.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'FORM268', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\formation\AppData\Local\Temp\rust_mozprofile.sUCpL4qVQmnn, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=63.0.3, platformVersion=10.0, moz:processID=69136.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9cab11b3-9fca-4892-82a1-88cf2851e61c
+    </div>                            
+    <div class="stack"> 
+        <div class="row">
+    <div id="toggle0-expand" class="col-mid toggle-button">
+        <a href="javascript:toggleDisplay('toggle0');"><img src="../../../public/images/expand.png"/></a>
+    </div>
+    <div id="toggle0-collapse" class="desktop-hidden toggle-button">
+        <a href="javascript:toggleDisplay('toggle0');"><img src="../../../public/images/collapse.png"/></a>
+    </div>
+            <div class="col">                
+                <table class="w100 striped">
+                    <thead>
+                        <tr class="table-header">
+                            <th>Trace</th>
+                        </tr>
+                    </thead>
+                </table>                
+            </div>
+        </div>
+    
+        <div class="script-content">
+            <div id="toggle0" class="desktop-hidden small col trace">
+                <pre>
+                    org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.58%3A8090/jpetstore-1.0.5-env2/&c=UTF-8&f=regular&d=Firefox%20ne%20peut%20%C3%A9tablir%20de%20connexion%20avec%20le%20serveur%20%C3%A0%20l%E2%80%99adresse%20192.168.1.58%3A8090.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'FORM268', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_152'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\formation\AppData\Local\Temp\rust_mozprofile.sUCpL4qVQmnn, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=63.0.3, platformVersion=10.0, moz:processID=69136.0, browserName=firefox, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 9cab11b3-9fca-4892-82a1-88cf2851e61c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:364)
+	at fr.jpetstore.TestSelenium_OK.TestSeleniumJUnit(TestSelenium_OK.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:94)
+	at org.squashtest.ta.plugin.selenium.library.StandardJUnitExecutor.apply(StandardJUnitExecutor.java:74)
+	at org.squashtest.ta.plugin.selenium.commands.ExecuteJavaSeleniumTwoCommand.apply(ExecuteJavaSeleniumTwoCommand.java:91)
+	at org.squashtest.ta.plugin.selenium.commands.ExecuteJavaSeleniumTwoCommand.apply(ExecuteJavaSeleniumTwoCommand.java:1)
+	at org.squashtest.ta.backbone.engine.wrapper.CommandHandler.apply(CommandHandler.java:132)
+	at org.squashtest.ta.backbone.engine.instructionrunner.DefaultExecuteCommandRunner.doRun(DefaultExecuteCommandRunner.java:79)
+	at org.squashtest.ta.backbone.engine.instructionrunner.AbstractDefaultInstructionRunner.run(AbstractDefaultInstructionRunner.java:69)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runInstruction(TestRunnerImpl.java:205)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runInstructionList(TestRunnerImpl.java:150)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runMetaInstruction(TestRunnerImpl.java:174)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runInstructionList(TestRunnerImpl.java:148)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runPhase(TestRunnerImpl.java:138)
+	at org.squashtest.ta.backbone.engine.impl.TestRunnerImpl.runTest(TestRunnerImpl.java:109)
+	at org.squashtest.ta.backbone.engine.impl.EcosystemRunnerImpl.runAllTests(EcosystemRunnerImpl.java:202)
+	at org.squashtest.ta.backbone.engine.impl.EcosystemRunnerImpl.run(EcosystemRunnerImpl.java:104)
+	at org.squashtest.ta.backbone.engine.impl.SuiteRunnerImpl.execute(SuiteRunnerImpl.java:68)
+	at org.squashtest.ta.backbone.engine.impl.EngineImpl.execute(EngineImpl.java:63)
+	at org.squashtest.ta.maven.SquashTAMojo.executeImpl(SquashTAMojo.java:309)
+	at org.squashtest.ta.maven.AbstractSquashTaMojo.execution(AbstractSquashTaMojo.java:98)
+	at org.squashtest.ta.maven.AbstractBaseSquashTaMojo.execute(AbstractBaseSquashTaMojo.java:150)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+
+                </pre>
+            </div>
+        </div>
+    </div>  
+                                                
+ 
+                            </div> 
+       
+                </div>  
+            </div>         
+                  
+        </div>                 
+    </div> 
+    
+    <div class="footer txtcenter">
+        <p>Generated by Squash TA&copy; on 19/12/18 19:52:00</p>
+    </div>
+    
+</body>
+</html>
+
+
