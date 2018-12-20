@@ -12,10 +12,13 @@ public class TestSelenium_OK {
 
 	@Test
 	public void TestSeleniumJUnit () throws InterruptedException{
-
+		
+		FirefoxOptions option = new FirefoxOptions();
+		option.setBinary("/usr/bin/firefox");
+		
 		System.setProperty("webdriver.gecko.driver", "src/squashTA/resources/common_resources/geckodriver");
 
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new FirefoxDriver(option);
 	
 		//Acces au site
 		driver.get("http://192.168.1.58:8090/jpetstore-1.0.5-env2/");
