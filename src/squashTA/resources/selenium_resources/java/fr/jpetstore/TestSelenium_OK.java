@@ -41,7 +41,7 @@ public class TestSelenium_OK {
 		Thread.sleep(150);
 		
 		//Test que ce soit le bon user
-		assertTrue("Mauvais utilisateur",driver.findElement(By.xpath("//font[contains(text(),'Welcome')]")).getText().equals("Welcome ABC!"));
+	//	assertTrue("Mauvais utilisateur",driver.findElement(By.xpath("//font[contains(text(),'Welcome')]")).getText().equals("Welcome ABC!"));
 		Thread.sleep(100);
 		
 		//Test presence du bouton signoff
