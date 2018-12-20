@@ -13,7 +13,7 @@ public class TestSelenium_OK {
 	@Test
 	public void TestSeleniumJUnit () throws InterruptedException{
 
-		System.setProperty("webdriver.gecko.driver", "src/squashTA/resources/common_resources/geckodriver-v0.23.0-linux64.tar");
+		System.setProperty("webdriver.gecko.driver", "src/squashTA/resources/common_resources/geckodriver");
 
 		WebDriver driver = new FirefoxDriver();
 	
