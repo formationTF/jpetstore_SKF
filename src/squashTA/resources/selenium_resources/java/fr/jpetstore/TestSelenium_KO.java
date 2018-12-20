@@ -16,7 +16,6 @@ public class TestSelenium_KO {
 		
 		FirefoxOptions option = new FirefoxOptions();
 		option.setBinary("/opt/firefox/firefox");
-		option.
 		
 
 		System.setProperty("webdriver.gecko.driver", "src/squashTA/resources/common_resources/geckodriver");
