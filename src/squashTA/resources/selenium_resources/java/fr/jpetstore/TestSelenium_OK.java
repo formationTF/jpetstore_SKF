@@ -15,7 +15,7 @@ public class TestSelenium_OK {
 	public void TestSeleniumJUnit () throws InterruptedException{
 		
 		FirefoxOptions option = new FirefoxOptions();
-		option.setBinary("/usr/bin/firefox");
+		option.setBinary("/opt/firefox");
 		
 		System.setProperty("webdriver.gecko.driver", "src/squashTA/resources/common_resources/geckodriver");
 
