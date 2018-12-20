@@ -8,4 +8,4 @@ SETUP :
 
 TEST :
 
-# EXECUTE_SELENIUM2 selenium_resources WITH MAIN CLASS fr.jpetstore.TestSelenium_OK
+# EXECUTE_SELENIUM2 selenium_resources WITH MAIN CLASS fr.jpetstore.TestSelenium_KO
