@@ -1,1 +1,0 @@
-[[ATTACHMENT--|C:\Users\formation\Desktop\workspace_TA\jpetstoreTA\target\squashTA\surefire-reports\attachments\tests\tests\test_OK.ta\EXECUTION_REPORT-seleniumReport.html]]
