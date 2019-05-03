@@ -12,7 +12,7 @@
 	<!-- Properties definition -->
 	<properties>
         <!-- Squash-TA framework version used by the project -->
-		<ta.framework.version>1.10.1-RELEASE</ta.framework.version>
+		<ta.framework.version>1.11.0-RELEASE</ta.framework.version>
 	</properties>
 
 	<build>
@@ -34,7 +34,7 @@
                     <dependency>
                        <groupId>org.seleniumhq.selenium</groupId>
                        <artifactId>selenium-java</artifactId>
-                       <version>3.11.0</version>
+                       <version>3.6.0</version>
                     </dependency>
 				</dependencies>
 				
